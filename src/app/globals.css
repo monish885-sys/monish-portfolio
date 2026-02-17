@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0f0f12;
+  --foreground: #f1f5f9;
+  --muted: #64748b;
+  --muted-foreground: #94a3b8;
+  --accent: #3b82f6;
+  --accent-hover: #2563eb;
+  --card: #18181b;
+  --card-border: #27272a;
+  --charcoal: #1c1c21;
+  --slate: #334155;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Subtle selection */
+::selection {
+  background: rgba(59, 130, 246, 0.25);
+  color: inherit;
+}
