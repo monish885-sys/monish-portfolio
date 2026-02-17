@@ -53,7 +53,7 @@ const EXPERIENCE = [
   {
     company: "CoSchool",
     role: "Intern Engineering",
-    period: "2024 – Present",
+    period: "2025 – 2025",
     technicalDescription:
       "Built a 3-agent AI validation framework for content and workflows. Implemented orchestration between validation, review, and feedback agents with structured outputs and error handling.",
     businessDescription:
@@ -68,7 +68,7 @@ const EXPERIENCE = [
   {
     company: "CoSchool",
     role: "QA Intern",
-    period: "2024",
+    period: "2024 – 2024",
     technicalDescription:
       "Focused on EdTech automation and content review. Used Selenium, Postman, and manual/regression testing to ensure quality and consistency across learning modules.",
     businessDescription:
@@ -78,7 +78,7 @@ const EXPERIENCE = [
   {
     company: "Innerscore",
     role: "Instructional Design / Prompt Engineering",
-    period: "2024",
+    period: "2023 – 2023",
     technicalDescription:
       "Applied prompt engineering for instructional design—crafting prompts and flows to improve learning outcomes and content structure.",
     businessDescription:
@@ -112,6 +112,12 @@ const PROJECTS = [
       "MERN stack platform for college events, registrations, and community.",
     tags: ["MERN", "Events", "Full-stack"],
   },
+  {
+    name:"Edumate",
+    description:
+      "AI-powered educational content platform with personalized learning paths.",
+      tags:["MERN","JS","HTML"] 
+  }
 ];
 
 export default function Home() {
@@ -364,7 +370,7 @@ export default function Home() {
             className="mt-6 flex justify-center gap-4"
           >
             <a
-              href="https://github.com"
+              href="https://github.com/monish885-sys"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
@@ -373,7 +379,7 @@ export default function Home() {
               <Github className="h-5 w-5" />
             </a>
             <a
-              href="https://linkedin.com"
+              href="www.linkedin.com/in/monish-balusu-7375181a6"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
